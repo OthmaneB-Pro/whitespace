@@ -3,7 +3,7 @@ import styled from "styled-components";
 export default function Logo() {
   return (
     <LogoStyled>
-      <img src="/img/logo.PNG" alt="logo" /> whitespace
+      <img src="/img/logo.PNG" alt="logo" /> whitepace
     </LogoStyled>
   );
 }

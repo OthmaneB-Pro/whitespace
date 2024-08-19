@@ -12,7 +12,7 @@ export default function Navbar() {
         <ListNavbar />
         <div>
           <Button label="Login" className="button-login" />
-          <Button label="Try Whitespace free" Icon={<FaArrowRight />} />
+          <Button label="Try Whitepace free" Icon={<FaArrowRight />} />
         </div>
       </NavbarStyled>
     </ContainerStyled>
