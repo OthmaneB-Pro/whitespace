@@ -28,5 +28,6 @@ const ButtonStyled = styled.button`
   svg {
     width: 10px;
     height: 10px;
+    margin-left: 10px;
   }
 `;
