@@ -8,7 +8,7 @@ export default function Customise() {
   return (
     <CustomiseStyled>
       <div className="container">
-      <Image src="/img/bureau.png" alt="bureau" />
+      <Image src="/img/work.avif" alt="work" />
         <div className="text">
           <Paragraph
             span="Customise it to your needs"

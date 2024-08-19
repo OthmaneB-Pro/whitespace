@@ -18,7 +18,7 @@ export default function AsExtension() {
           />
           <Button label="Let’s Go" Icon={<FaArrowRight />} />
         </div>
-        <Image src="/img/bureau.png" alt="bureau" />
+        <Image src="/img/groupe.avif" alt="groupe" />
       </div>
     </AsExtensionStyled>
   );

@@ -16,7 +16,7 @@ export default function Home() {
         />
         <Button label="Try Whitepace free" Icon={<FaArrowRight />} />
       </div>
-      <Image src="/img/bureau.png" alt="bureau" />
+      <Image src="/img/company.avif" alt="bureau" />
     </ContainerHomeStyled>
   );
 }
