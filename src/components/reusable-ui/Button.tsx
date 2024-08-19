@@ -3,7 +3,7 @@ import styled from "styled-components";
 type ButtonType = {
   label: string;
   Icon?: JSX.Element;
-  className? : string;
+  className?: string;
 };
 
 export default function Button({ label, Icon, className }: ButtonType) {
