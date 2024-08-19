@@ -1,21 +1,21 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 type ImageType = {
-    src : string;
-    alt: string;
-}
+  src: string;
+  alt: string;
+};
 
-
-export default function Image({src, alt} : ImageType) {
+export default function Image({ src, alt }: ImageType) {
   return (
     <ImageStyled>
-        <img src={src} alt={alt} />
+      <img src={src} alt={alt} />
     </ImageStyled>
-  )
+  );
 }
 
 const ImageStyled = styled.div`
-img{
+  img {
     width: 685px;
     height: 456px;
-  }`
+  }
+`;
