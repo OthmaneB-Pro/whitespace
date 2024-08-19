@@ -25,6 +25,12 @@ const ButtonStyled = styled.button`
   font-size: 16px;
   box-shadow: 2px 2px 10px black;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.425);
+  cursor: pointer;
+  &:hover {
+    background-color: white;
+    color: #4f9cf9;
+    transition: 0.5s;
+  }
   svg {
     width: 10px;
     height: 10px;
