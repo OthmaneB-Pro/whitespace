@@ -1,54 +1,30 @@
 import styled from "styled-components";
 import Logo from "../../../reusable-ui/Logo";
-import Button from "../../../reusable-ui/Button";
-import { FaArrowRight } from "react-icons/fa6";
+import FooterCallToAction from "./FooterCallToAction";
+import FooterList from "../../../reusable-ui/List";
+import TextFooter from "./TextFooter";
 
 export default function FooterHome() {
   return (
     <FooterHomeStyle>
-      <div className="onverra">
+      <div className="container">
         <div>
           <Logo />
-          <p>
-            whitepace was created for the new ways we live and work. We make a
-            better workspace around the world
-          </p>
+          <TextFooter />
         </div>
-        <div>
-          <ul>
-            <li>
-              <h3>Product</h3>
-            </li>
-            <li>Overview</li>
-            <li>Pricing</li>
-            <li>Customer stories</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li>
-              <h3>Resources</h3>
-            </li>
-            <li>Blog</li>
-            <li>Guides & turials</li>
-            <li>Help center</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li>
-              <h3>Company</h3>
-            </li>
-            <li>About us</li>
-            <li>Careers</li>
-            <li>Media kit</li>
-          </ul>
-        </div>
-        <div>
-          <h1>Try it Today</h1>
-          <p>Get started for free. Add your whole team as your needs grow.</p>
-          <Button label="Start today" Icon={<FaArrowRight />} />
-        </div>
+        <FooterList
+          title="Product"
+          items={["Overview", "Pricing", "Customer stories"]}
+        />
+        <FooterList
+          title="Resources"
+          items={["Blog", "Guides & tutorials", "Help center"]}
+        />
+        <FooterList
+          title="Company"
+          items={["About us", "Careers", "Media kit"]}
+        />
+        <FooterCallToAction />
       </div>
     </FooterHomeStyle>
   );
@@ -58,7 +34,7 @@ const FooterHomeStyle = styled.div`
   height: 60vh;
   background-color: #043873;
 
-  .onverra {
+  .container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 100px;
@@ -67,9 +43,5 @@ const FooterHomeStyle = styled.div`
   }
   p {
     width: 250px;
-  }
-  li {
-    list-style-type: none;
-    margin-bottom: 15px;
   }
 `;
