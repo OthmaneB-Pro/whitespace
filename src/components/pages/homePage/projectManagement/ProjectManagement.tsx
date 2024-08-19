@@ -17,7 +17,7 @@ export default function ProjectManagement() {
 }
 
 const ProjectManagementStyled = styled.div`
-  height: 160vh;
+  height: 70vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 140px 52px 100px 52px;

@@ -3,12 +3,13 @@ import styled from "styled-components";
 type ImageType = {
   src: string;
   alt: string;
+  className? : string;
 };
 
-export default function Image({ src, alt }: ImageType) {
+export default function Image({ src, alt, className }: ImageType) {
   return (
-    <ImageStyled>
-      <img src={src} alt={alt} />
+    <ImageStyled >
+      <img src={src} alt={alt} className={className}/>
     </ImageStyled>
   );
 }

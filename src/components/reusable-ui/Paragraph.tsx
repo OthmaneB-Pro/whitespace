@@ -8,9 +8,9 @@ type ParagraphType = {
 
 export default function Paragraph({ label, span, className }: ParagraphType) {
   return (
-    <ParagraphStyled className={className}>
+    <ParagraphStyled >
       <h1>{span}</h1>
-      <p>{label}</p>
+      <p className={className}>{label}</p>
     </ParagraphStyled>
   );
 }
