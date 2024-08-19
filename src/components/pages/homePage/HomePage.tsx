@@ -1,12 +1,14 @@
 import styled from "styled-components"
 import Navbar from "./navbar/Navbar"
 import Home from "./home/Home"
+import ProjectManagement from "./projectManagement/ProjectManagement"
 
 export default function HomePage() {
   return (
     <HomePageStyled>
         <Navbar/>
         <Home/>
+        <ProjectManagement/>
     </HomePageStyled>
   )
 }

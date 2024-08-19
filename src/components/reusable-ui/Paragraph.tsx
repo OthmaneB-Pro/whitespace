@@ -1,13 +1,16 @@
 import styled from "styled-components";
 
-export default function Paragraph() {
+type ParagraphType = {
+  label: string;
+  span: string;
+  className?: string;
+};
+
+export default function Paragraph({ label, span, className }: ParagraphType) {
   return (
-    <ParagraphStyled>
-      <h1>Get More Done with whitepace</h1>
-      <p>
-        Project management software that enables your teams to collaborate,
-        plan, analyze and manage everyday tasks
-      </p>
+    <ParagraphStyled className={className}>
+      <h1>{span}</h1>
+      <p>{label}</p>
     </ParagraphStyled>
   );
 }
