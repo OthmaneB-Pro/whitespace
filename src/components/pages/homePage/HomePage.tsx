@@ -4,6 +4,7 @@ import Home from "./home/Home"
 import ProjectManagement from "./projectManagement/ProjectManagement"
 import WorkTogether from "./workTogether/WorkTogether"
 import AsExtension from "./asExtension/AsExtension"
+import Customise from "./customise/Customise"
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
         <ProjectManagement/>
         <WorkTogether/>
         <AsExtension/>
+        <Customise/>
     </HomePageStyled>
   )
 }
