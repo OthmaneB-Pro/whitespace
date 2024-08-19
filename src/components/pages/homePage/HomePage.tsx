@@ -3,6 +3,7 @@ import Navbar from "./navbar/Navbar"
 import Home from "./home/Home"
 import ProjectManagement from "./projectManagement/ProjectManagement"
 import WorkTogether from "./workTogether/WorkTogether"
+import AsExtension from "./asExtension/AsExtension"
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
         <Home/>
         <ProjectManagement/>
         <WorkTogether/>
+        <AsExtension/>
     </HomePageStyled>
   )
 }

@@ -13,7 +13,7 @@ export default function WorkTogether() {
           span="Work together"
           label="With whitepace, share your notes with your colleagues and collaborate on them.
                 You can also publish a note to the internet and share the URL with others."
-          className="taille"
+          className="size"
         />
         <Button label="Try it now" Icon={<FaArrowRight />} />
       </div>
@@ -33,7 +33,7 @@ const WorkTogetherStyled = styled.div`
     flex-direction: column;
     justify-content: center;
     width: 593px;
-    .taille{
+    .size{
         width: 570px;
     }
   }
