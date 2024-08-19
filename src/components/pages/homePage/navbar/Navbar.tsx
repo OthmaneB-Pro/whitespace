@@ -32,7 +32,7 @@ export default function Navbar() {
           </li>
         </ul>
         <div>
-          <button className="button-login">Login</button>
+          <Button label="Login" className="button-login"/>
           <Button label="Try Whitespace free" Icon={<FaArrowRight />}/>
         </div>
       </nav>
